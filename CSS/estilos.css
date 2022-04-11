@@ -1,0 +1,23 @@
+body{
+    background-image: radial-gradient(blue, white) ;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.escudo{
+    transform: scale(1.2, 1.5);
+}
+
+.escudo{
+    width: 200px;
+    height: 200px;
+    transition: all 3s;
+}
+
+.escudo:hover{
+    height: 600px;
+    width: 600px;
+}
